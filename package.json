@@ -1,0 +1,15 @@
+{
+  "name": "random-word-generator",
+  "version": "1.0.0",
+  "description": "Generates a random word.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "ddededodediamante",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.21.1"
+  }
+}
