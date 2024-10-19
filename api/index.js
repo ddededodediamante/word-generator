@@ -2,7 +2,7 @@ const fs = require('fs');
 const express = require('express');
 let words;
 
-fs.readFile('allWords.txt', 'utf8', (err, data) => {
+fs.readFile('./allWords.txt', 'utf8', (err, data) => {
   if (err) {
     console.error('Error reading the file:', err);
     return;
